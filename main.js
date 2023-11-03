@@ -291,12 +291,16 @@ form_btn.addEventListener('click', function(){
     if (form.style.width === '0%' || form.style.width === '') {
         form.style.width = '30%';
         form.style.opacity = 1;
+        form.style.display = 'block';
         form.style.overflow = 'visible';
         form_btn.innerHTML = 'Close';
     } else {
         form.style.width = '0%';
         form.style.opacity = 0;
         form_btn.innerHTML = 'Contact';
+        setTimeout(() => {
+            form.style.display = 'none'
+        }, 500);
     }
 })
 
