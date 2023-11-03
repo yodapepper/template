@@ -1,0 +1,48 @@
+/* 웹글꼴연결@import */
+/* 한글 폰트 */@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+/* 영어 대신 폰트 */@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');/* font-family: 'Noto Serif KR', serif; */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url(../font/Pretendard-Thin.woff2) format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url(../font/Pretendard-Regular.woff2) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url(../font/Pretendard-Medium.woff2) format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url(../font/Pretendard-Bold.woff2) format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* reset */
+* {box-sizing:border-box;}
+html,body,h1,h2,h3,h4,h5,h6,
+p,div,ol,ul,li,dl,dt,dd,address,blockquote,video,
+em,strong,span,sup,sub,del,s,q,a,img,
+table,thead,tbody,tfoot,th,tr,td,
+form,fieldset,legend,input,select,option,button,textarea,label,optgroup,
+header,main,footer,nav,section,article,aside,figure,figcaption,details
+{
+    font-family: 'Pretendard-Regular';
+    color:#222; letter-spacing:-0.02em;
+    font-weight:400; font-size:16px; font-style:normal;
+    line-height:1.0; margin:0; padding:0;
+    border:0; background:none;
+}
+ul,ol,li {list-style:none;}
+a {text-decoration:none; color:#111;}
+table,tr,td,th {border-collapse:collapse;text-align:left;}
+button {cursor:pointer;}
+.skip {display:none;}

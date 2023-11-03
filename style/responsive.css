@@ -1,0 +1,59 @@
+/* tablet */
+@media screen and (max-width: 1100px){
+
+    .main_title_txt {
+        font-size: 80px !important;
+    }
+    .main_title_txt.height {
+        height: 80px !important;
+    }
+    .main_wrap .main_title {
+        margin-bottom: 60px !important;
+    }
+
+}
+@media screen and (max-width: 1024px){
+
+    .mouse_circle {
+        display: none;
+    }
+    .scale_wrap {
+        display: none;
+    }
+    .pin-spacer {
+        display: none !important;
+    }
+    .cover_title p {
+        font-size: 90px !important;
+    }
+    
+
+}
+
+
+/* mobile */
+@media screen and (max-width: 768px){
+
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: block;
+    }
+    .portfolio {
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: #e1dedc;
+
+    }
+    .portfolio #image_wrapper_1,
+    .portfolio #image_wrapper_2,
+    .portfolio #image_wrapper_3 {
+        
+    }
+    .portfolio .image {
+        width: 100%;
+    }
+    .portfolio .pf_title {}
+
+}
