@@ -38,6 +38,9 @@
     .cover_title p {
         font-size: 90px !important;
     }
+    header {
+        padding: 0 30px ;
+    }
     
 
 }
@@ -46,6 +49,9 @@
 /* mobile */
 @media screen and (max-width: 768px){
 
+    .main_info {
+        display: none;
+    }
     .contact_map {
         flex-flow: column nowrap;
     }
@@ -58,12 +64,92 @@
     }
     .form_wrap {
         width: 100% !important;
-        display: none;
         margin-top: 50px;
+        opacity: 1 !important;
+        overflow: visible;
+    }
+    .contact_active_box .form_btn {
+        display: none;
     }
     .contact_wrap{
         height: auto;
         flex-flow: column nowrap;
     }
+    .main_wrap .main_title {
+        margin-bottom: 0 !important;
+    }
+    .main_title_txt {
+        font-size: 50px !important;
+    }
+    .main_title_txt.height {
+        height: 50px !important;
+    }
+    .cover_title p {
+        font-size: 40px !important;
+    }
+    .main_cover {
+        height: 100vh !important;
+    }
+    .main_wrap .main_title_info {
+        font-size: 16px;
+    }
+    .m_img_2 {
+        flex-flow: column-reverse nowrap;
+    }
+    .pf_txt {
+        padding: 0 1%;
+        width: 100%;
+    }
+    .pf_bottom1 { 
+        margin-bottom: 20px;
+    }
+    .pf_bottom2 { 
+        margin-top: 20px;
+    }
+    .m_img_2 .m_image, .m_img_2 .pf_txt {
+        width: 100%;
+    }
+    header {
+        padding: 0 1%;
+    }
+    footer {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .f_info {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .f_info li {
+        margin-bottom: 2%;
+    }
+    .f_info li:last-child {
+        margin: 0;
+    }
+    .f_link {
+        width: 30%;
+        flex-flow: column nowrap;
+        align-items: flex-end;
+    }
+    .f_link li {
+        margin-bottom: 2%;
+    }
+    .f_link li:last-child {
+        margin: 0;
+    }
 
+
+}
+
+@media screen and (max-width: 420px){
+
+    .main_title_txt {
+        font-size: 30px !important;
+    }
+    .main_title_txt.height {
+        height: 30px !important;
+    }
+    
 }

@@ -18,9 +18,6 @@ header {
     transition: height 1s;
 }
 .nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 200px;
 }
 .nav * {
     color: #fff;
