@@ -74,6 +74,7 @@ main {
     position: relative;
     z-index: -10;
     height: 100%;
+    width: 100%;
 }
 .main_video video {
     height: 100vh;
@@ -324,6 +325,12 @@ main {
     line-height: 1.5;
     font-weight: 400;
 }
+.pf_bottom1 { 
+    margin-bottom: 20px;
+}
+.pf_bottom2 { 
+    margin-top: 20px;
+}
 .pf_title {
     font-size: 30px;
     font-weight: 900;
@@ -360,14 +367,16 @@ main {
 /* -------------------------------------contact------------------------------------- */
 .contact_wrap {
     overflow: hidden;
-    padding: 150px 50px;
+    padding: 10% 0 5%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     
 }
-.root_daum_roughmap_landing {
+.contact_container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 .contact_wrap * {
     color: #fff;
@@ -378,7 +387,7 @@ main {
     max-width: 1000px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 .map {
     width: 60%;

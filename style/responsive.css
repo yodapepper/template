@@ -15,8 +15,6 @@
     }
     .m_video {
         display: block !important;
-        border-bottom: 20px dashed #727272;
-        border-top: 20px dashed #727272;
         width: 100vw;
     }
     .m_video video {
@@ -100,12 +98,6 @@
         padding: 0 1%;
         width: 100%;
     }
-    .pf_bottom1 { 
-        margin-bottom: 20px;
-    }
-    .pf_bottom2 { 
-        margin-top: 20px;
-    }
     .m_img_2 .m_image, .m_img_2 .pf_txt {
         width: 100%;
     }
@@ -124,6 +116,7 @@
     }
     .f_info li {
         margin-bottom: 2%;
+        margin-right: 0;
     }
     .f_info li:last-child {
         margin: 0;
@@ -135,11 +128,16 @@
     }
     .f_link li {
         margin-bottom: 2%;
+        margin-right: 0;
     }
     .f_link li:last-child {
         margin: 0;
     }
-
+    .contact_container {
+        flex-flow: column nowrap;
+        height: auto;
+        padding: 0 5%;
+    }
 
 }
 

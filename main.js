@@ -123,12 +123,30 @@ requestAnimationFrame(raf)
 
 ScrollTrigger.create({
     trigger: '.scale_wrap',
-    animation: gsap.fromTo('.company_wrap',{scale: 5}, {scale: 1}),
+    animation: gsap.fromTo('.company_wrap',{scale: 1}, {scale: 5}),
     pin: ".scale_wrap",
     start: 'top top',
     end: 'bottom top',
     scrub: 1,
 })
+
+
+/******************************* */
+// 이미지 요소들을 선택합니다
+const imgElements = document.querySelectorAll('.img_content img');
+
+// 각 이미지에 대한 이벤트 리스너를 추가합니다
+imgElements.forEach(img => {
+    // 마우스를 올렸을 때 이미지의 스케일을 변경합니다
+    img.addEventListener('mouseover', () => {
+        img.style.transform = 'scale(1.2)'; // 스케일을 1.2배로 변경합니다 (원하는 크기로 조절 가능)
+    });
+    
+    // 마우스를 뗐을 때 이미지의 스케일을 원래대로 복원합니다
+    img.addEventListener('mouseout', () => {
+        img.style.transform = 'scale(1)'; // 스케일을 원래 크기로 변경합니다
+    });
+});
 
 
 /* scale wrap 스크롤 시 고정 */
