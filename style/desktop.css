@@ -434,7 +434,6 @@ main {
     opacity: 0;
     max-width: 750px;
     transition: all 1s ease;
-    overflow: hidden;
 }
 legend {
     display: none;

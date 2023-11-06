@@ -318,6 +318,29 @@ form_btn.addEventListener('click', function(){
     }
 })
 
+ */
+let mail_btn = document.querySelector('.submit_btn')
+mail_btn.addEventListener('click', function(){
+    if(!form.name.value || !form.age.value || !form.position.value || !form.hobby.value){
+        if(!form.name.value){
+            form.name.focus(),
+            form.name.innerHTML = '이름을 작성해주세요'
+        }
+        if(!form.age.value){
+            form.age.focus(),
+            form.age.innerHTML = '이름을 작성해주세요'
+        }
+        if(!form.position.value){
+            form.position.focus(),
+            form.position.innerHTML = '이름을 작성해주세요'
+        }
+        if(!form.hobby.value){
+            form.hobby.focus(),
+            form.hobby.innerHTML = '이름을 작성해주세요'
+        }
+    }
+})
+
 
 
 /* 네이버맵 */

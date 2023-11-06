@@ -29,7 +29,7 @@
         </header>
         <main>
             <div class="mouse_circle"></div>
-            <div class="home_wrap">
+            <div class="home_wrap" style="display: none;">
                 <div class="main_wrap">
                     <div class="main_video">
                         <video src="images/main_video.mp4" autoplay loop muted ></video>
@@ -71,7 +71,7 @@
                     </div>
                 </div>
             </div>
-            <div id="section_to-pin" class="grid-container full section section_to-pin four">
+            <div id="section_to-pin" style="display: none;" class="grid-container full section section_to-pin four">
                 <div id="section_pin" class="section_pin">
                     <div id="image_wrapper_1" class="image_wrapper">
                         <img class="image" src="images/pf2.jpg" alt="Lil' Image">
@@ -147,25 +147,25 @@
                             <p class="form_btn"><button type="button">Contact</button></p>
                         </div>
                     </div>
-                    <form class="form_wrap" action="#" method="post">
+                    <form class="form_wrap" style="width: 100%; opacity: 1;" action="#" method="post">
                         <fieldset>
                             <legend>이메일전송</legend>
                             <ul class="contact_txt">
                                 <li>
                                     <p class="txt_title">Name</p>
-                                    <input type="text">
+                                    <input name="name" type="text">
                                 </li>
                                 <li>
                                     <p class="txt_title">Age</p>
-                                    <input type="text">
+                                    <input name="age" type="text">
                                 </li>
                                 <li>
                                     <p class="txt_title">Position</p>
-                                    <input type="text">
+                                    <input name="position" type="text">
                                 </li>
                                 <li>
                                     <p class="txt_title">Hobby</p>
-                                    <input type="text">
+                                    <input name="hobby" type="text">
                                 </li>
                                 <li>
                                     <p class="txt_title">Introduction</p>
