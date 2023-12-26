@@ -318,7 +318,7 @@ form_btn.addEventListener('click', function(){
     }
 })
 
- */
+
 let mail_btn = document.querySelector('.submit_btn')
 mail_btn.addEventListener('click', function(){
     if(!form.name.value || !form.age.value || !form.position.value || !form.hobby.value){
